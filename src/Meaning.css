@@ -9,3 +9,7 @@
   color: #2f162b;
   margin-top: 10px;
 }
+
+.Meaning .example:first-letter {
+  text-transform: uppercase;
+}

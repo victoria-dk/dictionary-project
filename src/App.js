@@ -14,7 +14,19 @@ export default function App() {
           <Dictionary defaultKeyword="Dictionary" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Victoria Nielsen</small>
+          <i class="fi-xnsuxl-github"></i>
+          <small>
+            {" "}
+            Coded by Victoria Nielsen and is{" "}
+            <a
+              className="footer"
+              rel="noreferrer"
+              href="https://github.com/victoria-dk/dictionary-project"
+              target="_blank"
+            >
+              open source on GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>
